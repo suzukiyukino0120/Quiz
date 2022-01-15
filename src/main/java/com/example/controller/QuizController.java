@@ -174,26 +174,3 @@ public class QuizController {
 	
 }
 
-//				List<Answer> choiceList = new ArrayList<Answer>();
-//				for(Question q : questionList) {
-//					for(Answer answer : q.getAnswerList()) {
-//						if(!question.getAnswerList().get(0).equals(answer)) {
-//							choiceList.add(answer);
-//						}
-//					}
-//				}
-//				model.addAttribute("choiceList", choiceList);
-//				
-//				try {
-//					for(Question q : questionList) {
-//						for(Answer answer : q.getAnswerList()) {
-//							if(!question.getAnswerList().get(0).equals(answer)) {
-//								question.getAnswerList().add(answer);
-//							}
-//						}
-//					}
-//				} catch (Exception e) {
-//					e.printStackTrace();
-//				}
-//				
-//				question.setAnswerList()
