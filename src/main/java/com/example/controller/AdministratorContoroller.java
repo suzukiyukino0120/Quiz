@@ -104,4 +104,6 @@ public class AdministratorContoroller {
 		session.invalidate();		
 		return "/administrator/login";
 	}
+	
+	
 }
